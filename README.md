@@ -49,4 +49,34 @@ Enterprise Modeling
 Business Process Analysis
 Systems Thinking
 
+```mermaid
+flowchart TB
+
+    E[Environment]
+
+    S4[System 4<br/>Environment / Innovation]
+    S5[System 5<br/>Identity / Policy]
+    S3[System 3<br/>Management / Control]
+    S2[System 2<br/>Coordination]
+
+    S1A[System 1A<br/>Online Course]
+    S1B[System 1B<br/>E-commerce & Product]
+    S1C[System 1C<br/>Dietitian Consultation]
+
+    E --> S4
+    E --> S5
+
+    S4 --> S3
+    S5 --> S3
+    S3 --> S2
+
+    S2 --> S1A
+    S2 --> S1B
+    S2 --> S1C
+
+    S1A --> E
+    S1B --> E
+    S1C --> E
+```
+
 Academic project | Stockholm University | 2026
