@@ -48,6 +48,7 @@ Viable System Model (VSM)
 Enterprise Modeling
 Business Process Analysis
 Systems Thinking
+
 Academic project | Stockholm University | 2026
 
 ```mermaid
