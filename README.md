@@ -48,6 +48,7 @@ Viable System Model (VSM)
 Enterprise Modeling
 Business Process Analysis
 Systems Thinking
+Academic project | Stockholm University | 2026
 
 ```mermaid
 flowchart TB
@@ -79,4 +80,4 @@ flowchart TB
     S1C --> E
 ```
 
-Academic project | Stockholm University | 2026
+
